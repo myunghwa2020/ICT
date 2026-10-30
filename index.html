@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ICT폴리텍대학_DB시스템엔지니어과정</title>
     <style>
+        * {margin: 0;padding: 0;}
         .container {
             width: 100%;
             display: flex;
@@ -26,5 +27,13 @@
         <area shape="rect" coords="143,8384,712,8466" href="https://ais.ict.ac.kr/inc/fle/extFle2CAplyLogin.jsp" alt="ICT폴리텍대학" target="_blank">
     </map>
     </div>
+    <!-- imageMapResizer CDN 추가 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/image-map-resizer/1.0.10/js/imageMapResizer.min.js"></script>
+    <script>
+        // DOM 로드 완료 후 이미지 맵 좌표 자동 재조정 실행
+        window.addEventListener('DOMContentLoaded', function() {
+            imageMapResize();
+        });
+    </script>
 </body>
 </html>
